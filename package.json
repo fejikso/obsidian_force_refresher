@@ -17,6 +17,7 @@
   "author": "Fernando G. del Cueto",
   "repository": "https://github.com/fejikso/obsidian_force_refresher",
   "license": "MIT",
+  "funding": "https://www.buymeacoffee.com/fejikso",
   "devDependencies": {
     "@types/node": "^16.11.21",
     "esbuild": "0.14.11",

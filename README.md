@@ -55,5 +55,11 @@ node esbuild.js production
 
 *(Note: `--no-bin-links` is recommended if your development environment is also on an SMB share to avoid symlink errors).*
 
+## Support
+
+If you find this plugin useful, you can support my work:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://www.buymeacoffee.com/fejikso)
+
 ## License
 MIT
