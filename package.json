@@ -1,7 +1,7 @@
 {
   "name": "obsidian-force-refresh",
   "version": "1.0.0",
-  "description": "Force a filesystem refresh for Obsidian vaults on SMB mounts.",
+  "description": "Manually refresh your vault files and re-index changes. Essential for network mounts (SMB/CIFS) or sync setups where Obsidian fails to detect external updates automatically.",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.js",

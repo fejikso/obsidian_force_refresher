@@ -3,7 +3,7 @@
   "name": "Force Refresh",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
-  "description": "Force a filesystem refresh for vaults on network mounts.",
+  "description": "Manually refresh your vault files and re-index changes. Essential for network mounts (SMB/CIFS) or sync setups where Obsidian fails to detect external updates automatically.",
   "author": "Fernando G. del Cueto",
   "authorUrl": "https://github.com/fejikso",
   "isDesktopOnly": true

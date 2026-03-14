@@ -2,7 +2,11 @@
 
 [Source Code](https://github.com/fejikso/obsidian_force_refresher)
 
-This plugin forces a manual refresh of the filesystem and vault index in Obsidian. It is specifically designed for vaults hosted on network mounts (SMB/CIFS) or any environment where automatic file system events are not reliably propagated.
+## Why this plugin?
+
+Obsidian usually detects file changes automatically using OS-level "file watchers." However, these watchers often **fail on network mounts (SMB/CIFS)**, cloud-synced folders, or specialized filesystems.
+
+**Force Refresh** solves this by providing a manual "re-sync" button. It performs a deep scan of your vault directory, forcing Obsidian to recognize new files, deletions, and modifications that were otherwise missed.
 
 ## Features
 
