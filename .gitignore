@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+*.log
+# main.js (Uncomment if you don't want to track the build artifact)
+# main.js

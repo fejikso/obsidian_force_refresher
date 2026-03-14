@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-force-refresh",
+  "version": "1.0.0",
+  "description": "Force a filesystem refresh for Obsidian vaults on SMB mounts.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.js",
+    "build": "tsc -noEmit && node esbuild.js production"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "smb",
+    "refresh",
+    "filesystem"
+  ],
+  "author": "Fernando G. del Cueto",
+  "repository": "https://github.com/fejikso/obsidian_force_refresher",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.21",
+    "esbuild": "0.14.11",
+    "obsidian": "latest",
+    "tslib": "2.3.1",
+    "typescript": "4.5.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-force-refresh",
+  "name": "Force Refresh",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Force a filesystem refresh for vaults on network mounts.",
+  "author": "Fernando G. del Cueto",
+  "authorUrl": "https://github.com/fejikso",
+  "isDesktopOnly": true
+}
